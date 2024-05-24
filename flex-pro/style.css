@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header,.main-nav{
+    display: flex;
+    justify-content: end;
+}
+
+.main-nav li:first-child{
+    margin-right: auto;
+}

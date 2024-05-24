@@ -1,0 +1,61 @@
+scss
+
+node install
+
+
+
+npm init -y 	----PACKAGE INSTALL
+npm i sass -D -----install developer dependencies
+
+create 3folder src(index.html),sass(index.scss),css (autolink to html)  folder
+
+
+autolink command in package.json ---> scrit "start":"sass ./sassfilefolderpath ./cssfolderpath"
+
+npm start command automatically trigger update 
+
+auto update css command for ---->just addscrit --watch "start":"sass ./sassfilefolderpath ./cssfolderpath --watch" 
+
+
+
+
+
+css ---->block level div,p,h1-h6 new line ,it allow hit,wid,marg,pad 
+	---->inline no new line accrot mar, pad harizantal accept  not accept hit,wid
+			inline-block --> hit,wid,
+			
+			
+			justify === left-right
+			align ===top-bottom
+			
+			
+			css grid big box
+			
+			display
+			grid-template ---->row,coloumn ==>grid-template-rows,grid-template-columns   grid-template : x dir/y dir
+			gap 		  ---->row,column  ===> gap-row,gap-column
+			grid-auto 	  ---->rows,columns,flow  grid-auto-flow :row; ====all box touch in left right 
+			
+			
+		    left-right	justify--->items,content  x dir movement, contenet all child combined & move & space 
+		    top-bottom	align  --->items,content  y dir movement, contenet all child combined & move & space 
+			place  --->items,content  a j movment,  
+			
+			
+			each box property
+			
+			grid-coloumn --->start,end  top-bottom indual box span number of box fill  start/end  1 / span2
+			grid-row	 --->start,end  left-right  indual box span number of box fill  start/end  1 / span2
+			
+			
+			justify, -->self movementstart,end,center
+			align,-->self
+			
+			place -->self  a j
+			
+			
+			display: inline-grid used for menus
+			
+			
+			
+			

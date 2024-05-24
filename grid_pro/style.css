@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik',sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'nav maincont aside'
+    'footer footer footer'
+    ;
+
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 100px 1fr 50px;
+}
+
+header,main,nav,aside,footer{
+    background-color: orange;
+    color: white;
+    padding: 1px;
+    border: 2px solid red;
+}
+
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: maincont;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
